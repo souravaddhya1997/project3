@@ -1,0 +1,76 @@
+.maincontainer{
+    display: none;
+
+    
+  }
+  h2{
+    color: aqua;
+  }
+  .ele2{
+    color: aqua;
+  }
+  .container{
+    background-color: aliceblue;
+  }
+  .add1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+  }
+  #plus{
+    color: white;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: blue;
+    font-size: larger;
+  }
+  .box{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+    gap: 10px;
+    display: flex;
+  }
+  .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .addbox{
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 20px;
+    height: 200px;
+  }
+  
+  .close-button{
+    background-color: transparent;
+    border: 0;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    left: 240px;
+    top: 10px;
+  
+    transition: all 0.2s ease-in;
+    border-radius: 50%;
+  }
+  .close-button{
+    opacity: 0.7;
+  }
+  .first{
+    margin: 0;
+  }
+  @media (max-width:500px){
+    .maincontainer{
+        display: block;
+    }
+  }
+  
